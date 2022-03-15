@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="/css/main.css">
+
+<ul class="nav">
+    <li><a href="/">Home</a></li>
+    {% for page in site.pages %}
+        {{layout.title}}
+    <li><a href="{{ page.url }}">{{page.title}}</a></li>
+    {% endfor %}
+</ul>
+
+
+
+
+

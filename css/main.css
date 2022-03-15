@@ -1,0 +1,7 @@
+/* any style customization must be before the bootstrap import */
+@import "bootstrap";
+
+
+.nav li{
+    display: inline-block!important;
+}
